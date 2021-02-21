@@ -1,0 +1,120 @@
+.content-wrapper {
+    max-width: 820px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+    .content-wrapper {
+        position: static;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0)
+    }
+}
+.item {
+    height: 150px;
+    padding: 0.5rem;
+}
+
+.item__content {
+    height: 100%;
+    position: relative;
+}
+
+.item__icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item__title {
+    bottom: 0;
+    position: absolute;
+    padding: 0.5rem;
+}
+
+.background-home {
+    background: #3387ea;
+}
+
+.item__home {
+    height: 54px;
+    width: 54px;
+    background-image: url('././assets/images/home.png');
+}
+
+.background-contact {
+    background: #f9be3e;
+}
+
+.item__contact {
+    height: 39px;
+    width: 68px;
+    background-image: url('././assets/images/contact.png');
+}
+
+.background-hire {
+    background: #d3573e;
+}
+
+.item__hire {
+    height: 67px;
+    width: 54px;
+    background-image: url('././assets/images/hire.png');
+}
+
+.background-photos {
+    background: #59b0e2;
+}
+
+.item__photos {
+    height: 58px;
+    width: 58px;
+    background-image: url('././assets/images/photos.png');
+}
+
+.background-about {
+    background: #33af95;
+}
+
+.item__about {
+    height: 63px;
+    width: 50px;
+    background-image: url('././assets/images/about.png');
+}
+
+.background-about-tween {
+    background: #86a73f;
+}
+
+.item__content__blog {
+    display: flex;
+    height: 100%;
+}
+
+.item__image {
+    height: 100%;
+    width: 45%;
+    background-image: url('././assets/images/blog-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item__title__blog {
+    background: #151a26;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.background-contact-tween {
+    background: #7e5b8c;
+}
+
